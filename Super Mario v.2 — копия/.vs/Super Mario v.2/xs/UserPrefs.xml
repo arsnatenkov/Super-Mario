@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{C33464B4-F7F5-4795-3457-188F99AE7A56}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Character.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Character.cs" Line="66" Column="39" />
+      <File FileName="Assets/Scripts/Unit.cs" />
+      <File FileName="Assets/Scripts/Bullet.cs" />
+      <File FileName="Assets/Scripts/Obstacle.cs" />
+      <File FileName="Assets/Scripts/Monster.cs" Line="13" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Super Mario v.2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Character.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eaca4ce0-ce2c-4028-a63c-f12cf651ddaf" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Super Mario v.2.716241204.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Box.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Controls" t="Include">
+            <e p="CamMove.cs" t="Include" />
+            <e p="DieControls.cs" t="Include" />
+            <e p="FinishControl.cs" t="Include" />
+            <e p="FinishScore.cs" t="Include" />
+            <e p="MenuControls.cs" t="Include" />
+            <e p="PauseControl.cs" t="Include" />
+            <e p="ScoreControl.cs" t="Include" />
+            <e p="Settings.cs" t="Include" />
+            <e p="TimeControl.cs" t="Include" />
+            <e p="TimeLevelControl.cs" t="Include" />
+            <e p="TrainingControl.cs" t="Include" />
+            <e p="WinControls.cs" t="Include" />
+          </e>
+          <e p="GameMetaData.cs" t="Include" />
+          <e p="Human" t="Include">
+            <e p="Character.cs" t="Include" />
+            <e p="Monster.cs" t="Include" />
+            <e p="MoveableMonster.cs" t="Include" />
+            <e p="Obstacle.cs" t="Include" />
+            <e p="Unit.cs" t="Include" />
+          </e>
+          <e p="Space" t="Include">
+            <e p="DieSpace.cs" t="Include" />
+            <e p="LivesBar.cs" t="Include" />
+          </e>
+          <e p="Spend" t="Include">
+            <e p="AddScore.cs" t="Include" />
+            <e p="Bullet.cs" t="Include" />
+            <e p="Health.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Super Mario v.2.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
