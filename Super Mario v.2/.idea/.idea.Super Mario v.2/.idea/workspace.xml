@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1472bf9b-c751-4c40-a0f1-d1b5f1e41c06" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Human/Obstacle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85963591-C1A0-4AAD-8364-45DB604E7807/39/38c988a0/SpriteRenderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/FinishControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Human/MoveableMonster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Space/DieSpace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/WinControls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Space/LivesBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85963591-C1A0-4AAD-8364-45DB604E7807/3c/c50c50e6/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/ScoreControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameMetaData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/TimeControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/CamMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Box.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9FDC4C51-B0C7-4546-B786-3960F9028656/41/3aa47381/GUIStyle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Full Mario v2.1/Assets/Scripts/CamMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/FinishScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/PauseControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/TrainingControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85963591-C1A0-4AAD-8364-45DB604E7807/71/e5408ecf/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spend/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/DieControls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/TimeLevelControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/MenuControls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spend/AddScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spend/Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Human/Character.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Human/Monster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Human/Unit.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CamMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DieControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DieSpace.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LivesBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveableMonster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PauseControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Settings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TimeLevelControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Unit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WinControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TimeControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/TimeLevelControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameMetaData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/FinishScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/CamMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/Unit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/DieControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/FinishControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/MenuControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/PauseControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/TrainingControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/WinControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/MoveableMonster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spend/AddScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spend/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spend/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Human/Monster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controls/Settings.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aD7PujKnniA3FaYfADUl22sBBs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1472bf9b-c751-4c40-a0f1-d1b5f1e41c06" name="Default Changelist" comment="" />
+      <created>1586258291248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586258291248</updated>
+      <workItem from="1586258297517" duration="117000" />
+      <workItem from="1586259327848" duration="1233000" />
+      <workItem from="1586271959897" duration="5483000" />
+      <workItem from="1586337719870" duration="34000" />
+      <workItem from="1586339540196" duration="733000" />
+      <workItem from="1586430049618" duration="1391000" />
+      <workItem from="1586853881464" duration="3511000" />
+      <workItem from="1586859698333" duration="371000" />
+      <workItem from="1586867515202" duration="3276000" />
+      <workItem from="1586933271652" duration="6335000" />
+      <workItem from="1587065586345" duration="9423000" />
+      <workItem from="1587082495866" duration="1772000" />
+      <workItem from="1587332138615" duration="3959000" />
+      <workItem from="1588061468316" duration="7371000" />
+      <workItem from="1588069972580" duration="5402000" />
+      <workItem from="1588336464188" duration="557000" />
+      <workItem from="1588337216790" duration="2629000" />
+      <workItem from="1588340963107" duration="1374000" />
+      <workItem from="1588373788003" duration="299000" />
+      <workItem from="1588410159649" duration="14518000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1588081184147">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588081184147" />
+  </component>
+</project>
