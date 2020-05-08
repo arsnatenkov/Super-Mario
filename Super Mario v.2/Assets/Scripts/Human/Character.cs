@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Human;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -171,12 +172,4 @@ public class Character : Unit
     }
 }
 
-/// <summary>
-/// Для работы с анимацией
-/// </summary>
-public enum CharState
-{
-    Idle,
-    Run,
-    Jump
-}
+

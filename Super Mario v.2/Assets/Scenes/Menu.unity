@@ -490,7 +490,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Veru Low
+    - m_Text: Very Low
       m_Image: {fileID: 0}
     - m_Text: Low
       m_Image: {fileID: 0}
@@ -505,18 +505,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 950797545}
-        m_MethodName: Quality
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 950797545}
+      - m_Target: {fileID: 950797544}
         m_MethodName: Resolution
         m_Mode: 0
         m_Arguments:
@@ -1179,7 +1168,6 @@ GameObject:
   m_Component:
   - component: {fileID: 648527097}
   - component: {fileID: 648527098}
-  - component: {fileID: 648527099}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -1217,18 +1205,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e4ea58b4e1274d16a2bea84835e3eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &648527099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 648527096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 675609d25c28c4c3195a39d8e675488b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &662245023
@@ -1538,7 +1514,6 @@ GameObject:
   m_Component:
   - component: {fileID: 950797543}
   - component: {fileID: 950797544}
-  - component: {fileID: 950797545}
   m_Layer: 5
   m_Name: Settings
   m_TagString: Untagged
@@ -1575,21 +1550,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 950797542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 675609d25c28c4c3195a39d8e675488b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &950797545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 950797542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52fe1ef794743443989592e486f506b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFullScreen: 1
   am: {fileID: 24100000, guid: d5fb941992d4b4a5cbb34d4dc057f65a, type: 2}
   dropdown: {fileID: 132051625}
 --- !u!1 &951966670
@@ -1676,7 +1640,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 950797545}
+      - m_Target: {fileID: 950797544}
         m_MethodName: FullScreenToggle
         m_Mode: 1
         m_Arguments:
@@ -1723,7 +1687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 248}
+  m_AnchoredPosition: {x: 0, y: 157}
   m_SizeDelta: {x: 183, y: 55.299988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &963799254
@@ -1938,6 +1902,7 @@ GameObject:
   - component: {fileID: 993383677}
   - component: {fileID: 993383676}
   - component: {fileID: 993383675}
+  - component: {fileID: 993383679}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2028,6 +1993,103 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!82 &993383679
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993383674}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d5fb941992d4b4a5cbb34d4dc057f65a,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 7664443a790e546afac6bb0e41184be7, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1009164473
 GameObject:
   m_ObjectHideFlags: 0
@@ -2213,7 +2275,7 @@ MonoBehaviour:
     \u043D\u0430\u0434\u043E \u043D\u0430\u0447\u0438\u043D\u0430\u0442\u044C \u0441\u043D\u0430\u0447\u0430\u043B\u0430.\n3.
     \u0414\u043B\u044F \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F
     \u0433\u0435\u0440\u043E\u0435\u043C \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435
-    W, A \u0438 D. F - \u0441\u0442\u0440\u0435\u043B\u044F\u0431\u0430 \u0432\u043E\u043B\u0448\u0435\u0431\u043D\u044B\u043C\u0438
+    W, SPACE \u0438 D. F - \u0441\u0442\u0440\u0435\u043B\u044F\u0431\u0430 \u0432\u043E\u043B\u0448\u0435\u0431\u043D\u044B\u043C\u0438
     \u043F\u0443\u043B\u044F\u043C\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
     \u0443\u0431\u0438\u0432\u0430\u044E\u0442 \u0442\u043E\u043B\u044C\u043A\u043E
     \u0447\u0435\u0440\u0432\u0435\u0439\n4.\u041A\u0430\u043A \u0443\u0431\u0438\u0442\u044C
@@ -2755,8 +2817,8 @@ RectTransform:
   m_Father: {fileID: 1359669781}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3103,7 +3165,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Option A
+  m_Text: Veru Low
 --- !u!222 &1449112104
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4022,6 +4084,7 @@ GameObject:
   - component: {fileID: 1952423162}
   - component: {fileID: 1952423161}
   - component: {fileID: 1952423160}
+  - component: {fileID: 1952423163}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4094,6 +4157,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1952423163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952423159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 675609d25c28c4c3195a39d8e675488b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1986056117
 GameObject:
   m_ObjectHideFlags: 0
@@ -4253,19 +4328,19 @@ MonoBehaviour:
   m_FillRect: {fileID: 2100729315}
   m_HandleRect: {fileID: 1345151397}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 950797544}
+        m_MethodName: AudioVolume
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4306,7 +4381,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 248}
+  m_AnchoredPosition: {x: 0, y: 169}
   m_SizeDelta: {x: 183, y: 55.299988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2072898690
@@ -4402,7 +4477,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

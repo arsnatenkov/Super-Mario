@@ -6,7 +6,7 @@
 public class Unit : MonoBehaviour
 {
     /// <summary>
-    /// Метод получения уронв
+    /// Метод получения урона
     /// </summary>
     public virtual void ReceiveDamage()
     {

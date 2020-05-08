@@ -8,7 +8,7 @@ using UnityEngine.Audio;
 /// </summary>
 public class Settings : MonoBehaviour
 {
-    bool isFullScreen = true;
+    public bool isFullScreen = true;
 
     private void Start()
     {
@@ -45,9 +45,9 @@ public class Settings : MonoBehaviour
         QualitySettings.SetQualityLevel(q);
     }
 
-    Resolution[] rsl;
-    List<string> resolutions;
+    Resolution[] resolutions;
     public Dropdown dropdown;
+    private int currResolutionIndex = 0; //Текущее разрешение
 
     /// <summary>
     /// Метод, который выводит в выпадающий список
@@ -55,19 +55,28 @@ public class Settings : MonoBehaviour
     /// </summary>
     public void Awake()
     {
-        resolutions = new List<string>();
-        rsl = Screen.resolutions;
-        foreach (var i in rsl)
+        dropdown.ClearOptions(); //Удаление старых пунктов
+        resolutions = Screen.resolutions; //Получение доступных разрешений
+        List<string> options = new List<string> (); //Создание списка со строковыми значениями
+
+        for(int i = 0; i < resolutions.Length; i++) //Поочерёдная работа с каждым разрешением
         {
-            resolutions.Add(i.width + "x" + i.height);
+            string option = resolutions [i].width + " x " + resolutions [i].height; //Создание строки для списка
+            options.Add(option); //Добавление строки в список
+
+            if(resolutions[i].Equals(Screen.currentResolution)) //Если текущее разрешение равно проверяемому
+            {
+                currResolutionIndex = i; //То получается его индекс
+            }
         }
 
-        dropdown.ClearOptions();
-        dropdown.AddOptions(resolutions);
+        dropdown.AddOptions(options); //Добавление элементов в выпадающий список
+        dropdown.value = currResolutionIndex; //Выделение пункта с текущим разрешением
+        dropdown.RefreshShownValue(); //Обновление отображаемого значения
     }
 
     public void Resolution(int r)
     {
-        Screen.SetResolution(rsl[r].width, rsl[r].height, isFullScreen);
+        Screen.SetResolution(Screen.resolutions[r].width, Screen.resolutions[r].height, isFullScreen);
     }
 }

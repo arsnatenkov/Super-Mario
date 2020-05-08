@@ -12,9 +12,9 @@ public class TimeControl : MonoBehaviour
         int saveNowMinutes = DateTime.Now.TimeOfDay.Minutes;
         int saveNowSeconds = DateTime.Now.TimeOfDay.Seconds;
         GUIStyle myStyle = new GUIStyle();
-        myStyle.fontSize = 50;
+        myStyle.fontSize = (Screen.width * Screen.height * 50) / (1280 * 800);
         myStyle.normal.textColor = Color.black;
-        GUI.Label(new Rect((float) (Screen.width) - 520, 10, 500, 500),
+        GUI.Label(new Rect((float) (Screen.width) - ((Screen.width * 500) / 1280) - 1, 10, (float)((Screen.width * 500) / 1280), (float)((Screen.height * 500) / 800)),
             "Time: " + $"H: {saveNowHours} M:{saveNowMinutes} S:{saveNowSeconds} ", myStyle);
     }
 }

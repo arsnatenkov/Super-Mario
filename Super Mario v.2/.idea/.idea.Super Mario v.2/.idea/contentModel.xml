@@ -25,6 +25,7 @@
           <e p="GameMetaData.cs" t="Include" />
           <e p="Human" t="Include">
             <e p="Character.cs" t="Include" />
+            <e p="CharState.cs" t="Include" />
             <e p="Monster.cs" t="Include" />
             <e p="MoveableMonster.cs" t="Include" />
             <e p="Obstacle.cs" t="Include" />

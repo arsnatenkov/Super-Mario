@@ -6,8 +6,7 @@
  /// </summary>
  public class WinControls : MonoBehaviour
  {
-     private Character character;
- 
+
      private void Start()
      {
          Cursor.lockState = CursorLockMode.None;
