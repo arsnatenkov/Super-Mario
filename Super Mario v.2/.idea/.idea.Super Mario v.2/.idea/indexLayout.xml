@@ -17,9 +17,8 @@
       <Path>.vs</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
-      <Path>Super Temio Windows v.2</Path>
+      <Path>Super Temio Windows</Path>
       <Path>Super Temio.app</Path>
-      <Path>Temp</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>
